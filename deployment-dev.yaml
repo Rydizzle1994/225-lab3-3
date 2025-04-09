@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: cithit/roseaw:latest  #<-------change this to match your MiamiID.
+        image: cithit/pylerd:latest  #<-------change this to match your MiamiID.
         ports:
         - containerPort: 80  # Expose NGINX on port 80      
 ---
